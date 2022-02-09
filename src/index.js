@@ -12,9 +12,8 @@ function myFunction(){
         document.getElementById("p1").innerText="this field is required!";
     }
     else if(val != true){
-        console.log("hELLO")
         document.getElementById("name1").style.border= "1px solid red";
-        document.getElementById("p1").innerText="this field is required!";
+        document.getElementById("p1").innerText="name should be string!";
 
     }
     if(mobile.length != 10 ){
